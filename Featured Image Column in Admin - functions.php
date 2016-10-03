@@ -1,3 +1,4 @@
+<?php
 // Add featured image column to admin panel - posts AND pages
 // Add new column as second
 function j0e_add_image_column($columns){
@@ -38,3 +39,4 @@ function j0e_add_admin_styles() {
 	echo '<style>.column-j0e_image_thumb {width: 40px;}</style>';
 }
 add_action('admin_head', 'j0e_add_admin_styles');
+?>
